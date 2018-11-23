@@ -7,10 +7,6 @@ import java.util.List;
 
 public class NumberMirror {
 
-
-
-    public Integer mirror (Integer number) {
-
         public Integer mirror(Integer number) {
             List<String> numbers = separate(number);
             Collections.reverse(numbers);
@@ -27,4 +23,4 @@ public class NumberMirror {
         }
     }
 
-}
+
