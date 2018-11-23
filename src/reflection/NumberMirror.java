@@ -9,8 +9,11 @@ public class NumberMirror {
 
         public Integer mirror(Integer number) {
             List<String> numbers = separate(number);
+            System.out.println("Seperated number into list: " + numbers);
             Collections.reverse(numbers);
+            System.out.println("Reversed list of seperated numbers: " + numbers);
             String reversed = String.join("", numbers);
+            System.out.println("Joined list of string: " + reversed);
             return Integer.valueOf(reversed);
         }
 
@@ -21,6 +24,6 @@ public class NumberMirror {
             List<String> mutableNumbers = new ArrayList<>(immutableNumbers);
             return mutableNumbers;
         }
-    }
+    }[1, 2, 3]
 
 
