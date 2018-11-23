@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 public class NumberMirrorApplication {
 
-    // Application 
 
     public static void main(String[] args) {
 
