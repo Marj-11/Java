@@ -24,6 +24,6 @@ public class NumberMirror {
             List<String> mutableNumbers = new ArrayList<>(immutableNumbers);
             return mutableNumbers;
         }
-    }[1, 2, 3]
+    }
 
 
