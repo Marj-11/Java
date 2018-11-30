@@ -19,7 +19,7 @@ public class ex2 {
         boolean containsUnderWear = backpack.contains("underwear");
 
         if(containsUnderWear) {
-            System.out.println("The Backpack conatains underwear");
+            System.out.println("The Backpack contains underwear");
         }
         backpack.remove("underwear");
         System.out.println("Backpack: " + backpack);
@@ -31,6 +31,8 @@ public class ex2 {
         System.out.println("Backpack: " + backpack);
 
         System.out.println("The backpack size is: " + backpack.size());
+
+
 
 
 

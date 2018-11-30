@@ -19,7 +19,7 @@ public class ex3 {
 
         System.out.println("Index keys:" + index.keySet());
         System.out.println("Index values:" + index.values());
-        System.out.println("Index entry sets:" + index.entrySet());
+        System.out.println("Ibndex entry sets:" + index.entrySet());
 
         index.remove(1 );
         index.put(1, "teaching methods");
