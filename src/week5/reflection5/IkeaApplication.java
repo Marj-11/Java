@@ -5,8 +5,8 @@ public class IkeaApplication {
 
         TvTableBuilder tvTableBuilder = new TvTableBuilder();
         TvTable tvTable = tvTableBuilder.build();
-        System.out.println("TvTable: " + tvTable);
 
+        System.out.println("TvTable: " + tvTable);
 
     }
 }
