@@ -8,9 +8,12 @@ public abstract class Car {
         this.brand = brand;
     }
 
-  // Sorry i got very confused and didn't know what exactly you wanted! but i will keep trying :)
-
-
-
+    public String drive(){
+        return getType() + " " + brand;
     }
+
+    protected abstract String getType();
+
+
 }
+

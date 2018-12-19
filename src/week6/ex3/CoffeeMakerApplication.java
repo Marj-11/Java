@@ -26,7 +26,7 @@ public class CoffeeMakerApplication {
             coffeeMakerOptional.get().brew();
             System.out.println(coffeeMakerOptional.get().getName() + " brewed a Coffee and it took " + coffeeMakerOptional.get().getBrewingTime() + " minutes");
         }else
-            System.out.println("The coffee maker with the name " + name + " pot is not available");
+            System.out.println("The coffee maker with the Name " + name + " pot is not available");
 
     }
 }
