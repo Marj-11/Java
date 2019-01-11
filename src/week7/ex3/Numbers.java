@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Numbers {
 
-    public List<Integer> list = Arrays.asList(1,5,4,6,3,2,7,9,8,11,10,13,12);
+    public List<Integer> list = Arrays.asList(2,5,8,9,4,0,10);
 
     public  List<Integer> list2(){
         Collections.sort(list);

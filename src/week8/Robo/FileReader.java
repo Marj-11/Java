@@ -1,4 +1,4 @@
-package week8.RobomimeEx;
+package week8.Robo;
 
 import java.io.IOException;
 import java.net.URI;

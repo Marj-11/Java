@@ -1,15 +1,15 @@
-package week8.RobomimeEx;
+package week8.Robo;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
 public class RobomimReader {
-    private Sensor sensor = new Sensor();
+    public Sensor sensor = new Sensor();
 
     public void decrypt() {
         FileReader fileReader = new FileReader();
-        List<String> asLines = fileReader.asLines("week8/RobomimeEx/robomime.txt");
+        List<String> asLines = fileReader.asLines("week8/Robo/robomime.txt");
         List<String> tricks = new ArrayList<>();
         for (String asLine : asLines) {
             Optional<String> trick = sensor.getDecryptedTrick(asLine);

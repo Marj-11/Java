@@ -1,4 +1,4 @@
-package week8.RobomimeEx;
+package week8.Robo;
 
 public class RobomimeApp {
     public static void main(String[] args) {
