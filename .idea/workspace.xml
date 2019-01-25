@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="90b2cf43-1c2e-48f6-804f-b2f496dbbc94" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/week10/reflectionWeek10/BookApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week10/reflectionWeek10/BookApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week10/reflectionWeek10/BookReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week10/reflectionWeek10/BookReader.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,7 +41,7 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="76" />
-          <entry key="project.open.time.10" value="8" />
+          <entry key="project.open.time.10" value="9" />
           <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.12" value="4" />
           <entry key="project.open.time.13" value="1" />
@@ -53,20 +52,20 @@
           <entry key="project.open.time.7" value="15" />
           <entry key="project.open.time.8" value="31" />
           <entry key="project.open.time.9" value="19" />
-          <entry key="project.opened" value="89" />
+          <entry key="project.opened" value="90" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="csv" value="1" />
           <entry key="dummy" value="156" />
-          <entry key="java" value="57979" />
+          <entry key="java" value="57981" />
           <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="57979" />
+          <entry key="JAVA" value="57981" />
           <entry key="PLAIN_TEXT" value="176" />
         </counts>
       </usages-collector>
@@ -99,7 +98,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/week10/ex5/Example.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-132">
+            <state relative-caret-position="440">
               <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -111,7 +110,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/week10/reflectionWeek10/BookReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
+            <state relative-caret-position="220">
               <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -123,8 +122,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/week10/reflectionWeek10/BookApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1100">
-              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+            <state relative-caret-position="372">
+              <caret line="57" column="31" lean-forward="true" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -228,7 +227,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -265,7 +264,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -274,7 +273,7 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548415405046" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548431035275" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -532,6 +531,7 @@
       <workItem from="1548352331141" duration="1258000" />
       <workItem from="1548402868987" duration="4862000" />
       <workItem from="1548412425552" duration="3039000" />
+      <workItem from="1548430703859" duration="306000" />
     </task>
     <servers />
   </component>
@@ -568,18 +568,19 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="575254000" />
+    <option name="totallyTimeSpent" value="575560000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="990" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Structure" order="0" sideWeight="0.50178784" side_tool="true" visible="true" weight="0.16899142" />
+      <window_info id="Structure" order="0" sideWeight="0.5041322" side_tool="true" visible="true" weight="0.17113733" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.50075185" side_tool="true" weight="0.15303284" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49821216" visible="true" weight="0.16899142" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49586776" visible="true" weight="0.17113733" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32777116" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.39928487" />
@@ -591,7 +592,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5005365" side_tool="true" weight="0.14421931" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32896304" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946353" weight="0.14421931" />
-      <window_info anchor="bottom" x="612" y="27" width="1170" height="988" id="Run" order="11" weight="0.22884387" />
+      <window_info active="true" anchor="bottom" x="612" y="27" width="1170" height="988" id="Run" order="11" visible="true" weight="0.27890345" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.3299356" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -920,7 +921,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/week10/ex5/Example.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132">
+        <state relative-caret-position="440">
           <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -930,7 +931,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/week10/reflectionWeek10/BookReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
+        <state relative-caret-position="220">
           <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -940,8 +941,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/week10/reflectionWeek10/BookApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        <state relative-caret-position="372">
+          <caret line="57" column="31" lean-forward="true" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

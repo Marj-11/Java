@@ -1,7 +1,6 @@
 package week10.reflectionWeek10;
 
 import java.util.List;
-import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -56,8 +55,7 @@ public class BookApp {
                 .entrySet().stream()
                 .sorted((e1, e2) -> e2.getKey().compareTo(e1.getKey()))
                 .limit(1)
-                .map(Map.Entry::getValue)
-                .flatMap(List::stream)
+                .flatMap(e-> e.getValue().stream())
                 .collect(Collectors.toList());
         System.out.println("Longest word: " + longest);
 
