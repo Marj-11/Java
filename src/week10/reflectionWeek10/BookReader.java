@@ -12,6 +12,7 @@ public class BookReader {
 
     public List<String> getLines(String filepath) {
         return reader.asStream(filepath)
+                .map(String::toLowerCase)
                 .map(e->e.replaceAll(",", " "))
                 .map(e->e.replaceAll(";", " "))
                 .map(e->e.replaceAll(":", " "))
