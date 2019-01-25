@@ -1,6 +1,7 @@
 package week10.reflectionWeek10;
 
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 public class BookApp {
@@ -11,15 +12,13 @@ public class BookApp {
 
         getHowManyWords(book);
         getDistinctWords(book);
+        getLongestWord(book);
 
 
     }
 
     private static void getDistinctWords(List<String> book) {
         long distinctWords = book.stream()
-                .collect(Collectors.groupingBy(e -> e, Collectors.counting()))
-                .entrySet().stream()
-                .map(e -> e.getValue())
                 .distinct()
                 .count();
         System.out.println("Number of distinct words: " + distinctWords);
@@ -28,14 +27,19 @@ public class BookApp {
 
     private static void getHowManyWords(List<String> book) {
         long HowManyWords = book.stream()
-                .collect(Collectors.groupingBy(e -> e, Collectors.counting()))
-                .entrySet().stream()
-                .map(e -> e.getValue())
                 .count();
         System.out.println("How many words : " + HowManyWords);
     }
 
-// spend lots of time on small mistakes :/
+    private static void getLongestWord(List<String> book) {
+        Map<Integer, List<String>> wordLength = book.stream()
+                .collect(Collectors.groupingBy(String::length));
+        wordLength.entrySet().stream()
+                .map(Map.Entry::getValue)
+                .skip(15)
+                .collect(Collectors.toList());
+        System.out.println("Longest words: " + wordLength);
+    }
 
 
 }
